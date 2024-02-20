@@ -34,6 +34,9 @@ function carousel() {
     else {
         nextBtn.style.display = 'none'
     }
+    if(counter > 0) {
+        
+    }
     slides.forEach(function(slide) {
         slide.style.transform = `translateX(-${counter * 100}%)`
     })
