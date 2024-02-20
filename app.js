@@ -13,3 +13,9 @@ nextBtn.addEventListener('click', function() {
 prevBtn.addEventListener('click', function() {
     counter--
 })
+
+function carousel() {
+    slides.forEach(function() {
+        
+    })
+}
