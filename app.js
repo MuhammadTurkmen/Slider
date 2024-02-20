@@ -29,7 +29,7 @@ function carousel() {
 
     // working with buttons
     if(counter < slides.length - 1) {
-        nextBtn.style.display = 'none'
+        nextBtn.style.display = 'block'
     }
     slides.forEach(function(slide) {
         slide.style.transform = `translateX(-${counter * 100}%)`
