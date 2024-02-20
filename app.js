@@ -19,13 +19,15 @@ prevBtn.addEventListener('click', function() {
 function carousel() {
     // workind with slide
 
-    if (counter === slides.length) {
-        counter = 0
-    }
+    // if (counter === slides.length) {
+    //     counter = 0
+    // }
 
-    if (counter < 0) {
-        counter = slides.length -1 
-    }
+    // if (counter < 0) {
+    //     counter = slides.length -1 
+    // }
+
+    // working with buttons
 
     slides.forEach(function(slide) {
         slide.style.transform = `translateX(-${counter * 100}%)`
