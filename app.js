@@ -37,7 +37,7 @@ function carousel() {
     if(counter > 0) {
         prevBtn.style.display = 'block'
     }
-    else {
+    else { 
         prevBtn.style.display = 'none'
 
     }
