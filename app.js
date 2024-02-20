@@ -9,12 +9,16 @@ slides.forEach(function(slide, index) {
 let counter = 0 
 nextBtn.addEventListener('click', function() {
     counter++
+    carousel()
 })
 prevBtn.addEventListener('click', function() {
     counter--
+    carousel()
 })
 
 function carousel() {
+    // workind with slide
+
     slides.forEach(function(slide) {
         slide.style.transform = `translateX(-${counter * 100}%)`
     })
