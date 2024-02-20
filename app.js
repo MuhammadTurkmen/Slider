@@ -36,9 +36,14 @@ function carousel() {
     }
     if(counter > 0) {
         prevBtn.style.display = 'block'
+    }
+    else {
+        prevBtn.style.display = 'none'
 
     }
     slides.forEach(function(slide) {
         slide.style.transform = `translateX(-${counter * 100}%)`
     })
 }
+prevBtn.style.display = 'none'
+
